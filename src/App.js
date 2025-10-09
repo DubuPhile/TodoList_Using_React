@@ -35,7 +35,8 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const OldList = lists.find(list => list.todoList === newList)
+    const formattedNewList = newList.toLowerCase();
+    const OldList = lists.find(list => list.todoList.toLowerCase() === formattedNewList)
     if(!newList || OldList) return alert('This is already on the List');
     addList(newList);
     setNewList('');
@@ -50,7 +51,7 @@ function App() {
       handleSubmit = {handleSubmit}
     />
     <Content
-      lists = {lists}
+      lists = {lists.filter(list => ((list.todoList).toLowerCase()).includes(newList.toLowerCase()))}
       handleChecked = {handleChecked}
       handleDelete={handleDelete}
     />
