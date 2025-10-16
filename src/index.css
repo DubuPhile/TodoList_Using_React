@@ -8,6 +8,13 @@ html {
   font-size: 22px;
 }
 
+#root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   min-height: 100vh;
   display: flex;
