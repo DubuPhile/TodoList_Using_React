@@ -34,7 +34,7 @@ body {
 }
 
 header {
-  width: 500px;
+  width: 300px;
   padding: 0 0.25em;
   background-color: hsla(123, 100%, 40%, 0.8);
   color: aliceblue;
@@ -194,7 +194,7 @@ button:focus,button:hover{
 
 @media only screen and (min-width: 610px) {
  header {
-  width: 100vw;
+  width: 70%;
  }
  .App{
    margin-left: 10px;
