@@ -13,7 +13,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -35,7 +34,7 @@ body {
 }
 
 header {
-  width: auto;
+  width: 500px;
   padding: 0 0.25em;
   background-color: hsla(123, 100%, 40%, 0.8);
   color: aliceblue;
@@ -197,4 +196,7 @@ button:focus,button:hover{
  header {
   width: 100vw;
  }
+ body{
+   padding-left: 10px;
+   padding-right: 10px;
 }
