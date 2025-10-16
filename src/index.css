@@ -8,12 +8,6 @@ html {
   font-size: 22px;
 }
 
-#root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 body {
   min-height: 100vh;
   display: flex;
@@ -40,7 +34,7 @@ body {
 }
 
 header {
-  width: 500px;
+  width: auto;
   padding: 0 0.25em;
   background-color: hsla(123, 100%, 40%, 0.8);
   color: aliceblue;
@@ -196,4 +190,9 @@ button:focus,button:hover{
 .progress-label {
   font-size: 13px;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 610px) {
+  header {
+  width: 100vw;
 }
