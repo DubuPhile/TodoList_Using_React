@@ -5,7 +5,7 @@ import Footer from './footer';
 import AddItem from './addItem.js';
 import ProgressBar from './progressBar.js';
 function App() {
-  const [lists, setLists] = useState(JSON.parse(localStorage.getItem('todoList')));
+  const [lists, setLists] = useState(JSON.parse(localStorage.getItem('todoList')) || []);
   const [newList, setNewList] = useState('');
 
   const addList = (list) => {
