@@ -193,6 +193,6 @@ button:focus,button:hover{
 }
 
 @media only screen and (min-width: 610px) {
-  header {
+ header {
   width: 100vw;
-}
+ }
