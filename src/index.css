@@ -196,7 +196,7 @@ button:focus,button:hover{
  header {
   width: 100vw;
  }
- body{
+ .App{
    margin-left: 10px;
    margin-right: 10px;
  }
